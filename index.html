@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Pest Control</title>
+</head>
+<body>
+    <h1>Mario Pest Control</h1>
+    <h2 id="baddies">Baddies</h2>
+
+    <form name="form">
+        <div class="goombas">
+            <img id="goombaImg" src="https://upload.wikimedia.org/wikipedia/en/c/ce/Goomba.PNG" alt="Big Sacry Goomba">
+            <h2>Goombas</h2>
+            <h3>5 Coins</h3>
+            <h3>How many goombas did you catch?</h3>
+            <input type="number" min="0" id="goomba" name="goomba">
+        </div>
+        <br>
+        <div class="bobombs">
+            <img id="bobombImg" src="https://vignette.wikia.nocookie.net/mariokart/images/1/16/Bob-ombMK8.png/revision/latest?cb=20140520034125" alt="Big Scary Bob-ombs">
+            <h2>Bob-Ombs</h2>
+            <h3>7 Coins</h3>
+            <h3>How many Bob-ombs did you catch?</h3>
+            <input type="number" min="0" id="bobomb" name="bobomb">
+        </div>
+        <br>
+        <div class="cheepcheeps">
+            <img id="cheepcheepImg" src="https://www.mariowiki.com/images/thumb/6/63/CheepCheepNSMBU.png/1200px-CheepCheepNSMBU.png" alt="Big Scary Cheep-Cheep">
+            <h2>Cheep-Cheeps</h2>
+            <h3>11 Coins</h3>
+            <h3>How many Cheep-Cheeps did you catch?</h3>
+            <input type="number" min="0" id="cheepcheep" name="cheepcheep">
+            <br>
+            <br>
+            <button id="submit">Sumbit for your coin total</button>
+            <br>
+            <div id="total">Your grand total to be paid by Princess Peach!</div>
+        </div>
+        <div id="total"></div>
+    </form>
+    <br>
+    <br>
+    <footer>
+        <span>Address: Nintendo Company, Ltd., 11-1 Kamitoba-hokotate-cho, Minami-ku, Kyoto 601-8501, Japan  </span>
+        <span>Phone: +1181756629600</span>
+        <span>Email: Mario@noa.nintendo.com</span>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
